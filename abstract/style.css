@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.line {
+  width: 100px;
+  height: 10px;
+  background: red;
+  margin:10px;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {width: 0;}
+  to {width: 500px;}
+}
+
+@keyframes mymove {
+  from {width: 0;}
+  to {width: 500px;}
+}
